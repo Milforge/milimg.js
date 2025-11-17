@@ -1,6 +1,6 @@
-# Milimg
+# Milimg.js
 
-A milimg encoder and decoder based on WebCodecs API
+Milimg is a internal image format used by Milthm which acts as a simple AV1 container. This is a reference milimg encoder and decoder based on WebCodecs API.
 
 > **Note**: This library only supports browser environment, requires WebCodecs API support
 > For unknown reason, some jpeg image may not be encoded successfully
@@ -106,6 +106,6 @@ console.log(header.width, header.height, header.version);
 - **Version 0**: Image without alpha channel
 - **Version 1**: Image with alpha channel (RGBA)
 
-## Statement
+## Credits
 
-Milimg is a custom image format for rhythm game Milthm, so the copyright of this format belongs to the developer of Milthm. This library is only for personal use and learning.
+The format is created by [Eric_Lian](https://github.com/exercisebook) and have been used since Milthm 1.4. The library is created by [Q78KG](https://github.com/Hoshino-Yumetsuki) based on reverse engineering results, later the technical disclosure is authorized.
