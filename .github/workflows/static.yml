@@ -30,16 +30,21 @@ jobs:
         with:
           node-version: "lts/*"
 
-      - name: Setup Corepack
-        run: |
-          corepack enable
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Setup Corepack
+        run: |
+          npm install -g corepack
+          corepack enable
+
+      - name: Setup Dependencies
+        run: |
+          corepack prepare
+          yarn install --immutable
+
       - name: Build and Deploy
         run: |
-          yarn install --immutable
           yarn build
 
       - name: Upload artifact
