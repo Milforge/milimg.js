@@ -53,7 +53,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@biomejs/biome@npm:^2.2.3":
+"@biomejs/biome@npm:^2.3.10":
   version: 2.3.10
   resolution: "@biomejs/biome@npm:2.3.10"
   dependencies:
@@ -417,7 +417,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "milimg@workspace:."
   dependencies:
-    "@biomejs/biome": "npm:^2.2.3"
+    "@biomejs/biome": "npm:^2.3.10"
     "@types/node": "npm:^25.0.3"
     buffer: "npm:^6.0.3"
     rolldown: "npm:1.0.0-beta.57"
