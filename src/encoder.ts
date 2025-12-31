@@ -127,7 +127,7 @@ export async function encodeMilimg(
     throw new Error('Quality value must be between 0 and 63')
   }
 
-  const blob = new Blob([imageBuffer])
+  const blob = new Blob([new Uint8Array(imageBuffer)])
   const imageBitmap = await createImageBitmap(blob)
 
   const canvas = new OffscreenCanvas(imageBitmap.width, imageBitmap.height)
