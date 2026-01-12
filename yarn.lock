@@ -421,7 +421,7 @@ __metadata:
     "@types/node": "npm:^25.0.3"
     buffer: "npm:^6.0.3"
     rolldown: "npm:1.0.0-beta.57"
-    rolldown-plugin-dts: "npm:^0.20.0"
+    rolldown-plugin-dts: "npm:^0.21.0"
     typescript: "npm:^5.9.3"
   languageName: unknown
   linkType: soft
@@ -447,9 +447,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rolldown-plugin-dts@npm:^0.20.0":
-  version: 0.20.0
-  resolution: "rolldown-plugin-dts@npm:0.20.0"
+"rolldown-plugin-dts@npm:^0.21.0":
+  version: 0.21.0
+  resolution: "rolldown-plugin-dts@npm:0.21.0"
   dependencies:
     "@babel/generator": "npm:^7.28.5"
     "@babel/parser": "npm:^7.28.5"
@@ -474,7 +474,7 @@ __metadata:
       optional: true
     vue-tsc:
       optional: true
-  checksum: 10c0/68543dd81afd5d2c29d7862ee75035415d3e383f9bae51c6e9cd1daea3b485481f782d11a086f831c5f0d0ccac6dd572fe73ec7f7e5b17c1b17c08a9b03b4d7c
+  checksum: 10c0/6068f60fcfa2dae0ec1218b3023a2ba718560c44f306e13e05b58f164ff1d9c9c9b2f61b56f242bc8f291959477e2e763d054b8be7d5b26b65daf8caee32527d
   languageName: node
   linkType: hard
 
