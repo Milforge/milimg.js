@@ -1,6 +1,6 @@
 # Milimg.js
 
-Milimg is a internal image format used by Milthm which acts as a simple AV1 container. This is a reference milimg encoder and decoder based on WebCodecs API.
+Milimg(**Mil**thm **Im**a**g**e) is a internal image format used by [Milthm 1.4.3](https://milthm.com/wiki/en/changelog/#milthm-v1-4-3) onwards which acts as a simple AV1 container. This is a reference milimg encoder and decoder based on WebCodecs API.
 
 > **Note**: This library only supports browser environment, requires WebCodecs API support
 > For unknown reason, some jpeg image may not be encoded successfully
@@ -108,7 +108,7 @@ console.log(header.width, header.height, header.version);
 
 ## Credits
 
-The library is originally created by [Q78KG](https://github.com/Hoshino-Yumetsuki) based on [qaqFei](https://github.com/qaqFei)'s reverse engineering results, later the disclosure of technical details and specs of milimg format is authorized and it became a official project.
+The library is originally created by [Q78KG](https://github.com/Hoshino-Yumetsuki) based on [qaqFei](https://github.com/qaqFei)'s reverse engineering results, later the disclosure of technical details and specs of milimg format is authorized.
 
 ## Copyright
 ```

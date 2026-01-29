@@ -1,6 +1,6 @@
 {
   "name": "milimg",
-  "description": "",
+  "description": "Reference encoder & decoder implementation of the milimg format.",
   "version": "1.0.1",
   "main": "lib/index.js",
   "type": "module",
@@ -14,10 +14,10 @@
     "lint-fix": "biome format --write && biome lint --write"
   },
   "license": "MPL-2.0",
-  "homepage": "https://github.com/Hoshino-Yumetsuki/milimg",
+  "homepage": "https://github.com/Milforge/milimg.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hoshino-Yumetsuki/milimg"
+    "url": "git+https://github.com/Milforge/milimg.js"
   },
   "keywords": [
     "milimg"
